@@ -1,6 +1,6 @@
 ---
 title: 'This weeks progress  '
-date: 2019-05-17T04:00:00.000Z
+date: 2019-05-18T04:19:00.000Z
 image: /images/this-weeks-events-header.png
 tags:
   - JavaScript
