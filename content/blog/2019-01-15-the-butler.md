@@ -8,7 +8,7 @@ tags:
   - Udacity
 published: true
 ---
-  Here is my _first_ post and a week in review progress. This was brought about because of a group known as Let's Code. A few peers and myself decided to work on communication while passing on some information we learned.  
+  Here is my _first_ post and a week in review progress. This was brought about because of a group known as [Let's Code](https://lets-code.info/). A few peers and myself decided to work on communication while passing on some information we learned.  
 
 - - -
 
