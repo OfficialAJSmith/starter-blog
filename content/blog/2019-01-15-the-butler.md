@@ -3,8 +3,9 @@ title: 'This weeks progress  '
 date: 2019-05-17T04:00:00.000Z
 image: /images/this-weeks-events-header.png
 tags:
-  - Cecil
-  - SSG
+  - JavaScript
+  - Netlify
+  - Udacity
 published: true
 ---
   Here is my _first_ post and a week in review progress. This was brought about because of a group known as Let's Code. A few peers and myself decided to work on communication while passing on some information we learned.  
