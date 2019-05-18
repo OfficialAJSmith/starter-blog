@@ -2,21 +2,11 @@
 title: About
 menu: main
 published: true
-date: 2019-05-02 22:00:00 +0000
-
 ---
-> A ready to use static blog, powered by [Hyde](https://github.com/Cecilapp/theme-hyde), [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
+## **So you want to know a little about me?**
 
-## How to use?
+- - -
 
-### Start with [Forestry](https://forestry.io/)
+Well I started my journey learning some new web developer technology a little over a year ago. Recently I decided that I wanted a place to show what I have learned and share it with others. Currently I am working for Frito-Lay as a Robot Operator, I've been with them for 11 years. My end goal is to be able to do Full-Stack work. Hopefully you enjoy my posts and come back for more.  
 
-Use the following button to import the starter blog in Forestry and start editing!
-
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog)
-
-### Deploy with [Netlify](https://www.netlify.com/)
-
-Use the following button to configure and deploy your new blog on Netlify (and edit content from GitHub).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/starter-blog)
+![](/images/blogs.png)
