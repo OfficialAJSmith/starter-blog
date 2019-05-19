@@ -18,4 +18,4 @@ published: false
 * Saturday and Sunday will be the off days unless I need to swap days
 * Once a week I will write an update about my week of coding
 
-Here is a link to the [#100DaysOfCode](https://www.100daysofcode.com/) if you wish to read more about the challenge. Everyone's coding journey is unique so find your goals and outline them. This way you can move forward and not feel bad about what others are doing. 
+Here is a link to the [#100DaysOfCode](https://www.100daysofcode.com/) if you wish to read more about the challenge. Everyone's coding journey is unique so find your goals and outline them. This way you can move forward and not feel bad about what others are doing. Let's go code!
