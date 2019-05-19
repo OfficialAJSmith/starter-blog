@@ -1,5 +1,5 @@
 ---
-title: 'My Out Line for #100Daysofcode'
+title: 100Daysofcode
 date: 2019-05-20T04:59:38.920Z
 tags:
   - '#100DaysOfCode'
