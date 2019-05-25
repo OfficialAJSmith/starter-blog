@@ -12,4 +12,5 @@ There's not much to report but I did work on Udacity course and read some JavaSc
 const prices = [5, 8, 11, 10, 25];
 const aboveTwenty = prices.some((price) => price > 20); //check the array for prices over 20
 
-console.log(aboveTwenty); // true ```
+console.log(aboveTwenty); // true 
+```
