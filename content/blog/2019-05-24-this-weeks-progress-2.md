@@ -2,6 +2,9 @@
 title: 'This Weeks Progress #2    '
 date: 2019-05-25T01:31:38.061Z
 image: /images/whats-new-orig_orig.png
+tags:
+  - '#JavaScript'
+  - '#Dev.to'
 published: false
 ---
 <br>
