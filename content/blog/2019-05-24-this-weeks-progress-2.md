@@ -34,6 +34,15 @@ else if(number%2 !== 1){
  else {
     console.log(number);
  }
+
 ```
 <br>
-For those wondering what the modulo function finds the remainder after division.  
+For those wondering what the modulo function does, it finds the remainder after division. In this block of code I use strict comparing to get the logic to work. The === makes so it states that is has to be equal to be truthy or else it's falsy. That makes !== mean it has to absolutely be not equal to be truthy otherwise it's falsy. Here is a small table to help clarify it more.
+<br>
+```
+1 == true     => true
+true == true  => true
+1 === true    => false
+true === true => true
+```
+<br>
