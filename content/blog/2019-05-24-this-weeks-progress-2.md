@@ -5,7 +5,7 @@ image: /images/whats-new-orig_orig.png
 tags:
   - JavaScript
   - Dev.to
-published: false
+published: true
 ---
 <br>
 &emsp; Another week has gone by and I'm here to tell you a few things I learned.      
