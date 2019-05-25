@@ -22,7 +22,8 @@ console.log(aboveTwenty); // true
 
 ```
 <br>
-&emsp; Now for some insight into the [Udacaity](http://udacity.com) I am working through for JavaScript. To save us both time I will just go over one bit that stumped me a bit do to over thinking and trying to make it more complex.(It's a normal trend I am trying to fix). The section was on conditionals such as variables, if, else and else if statements. For the exercise I was suppose to write a block of code that used if, else and else if to find rather a number was odd using the modulo operation. While this should of been simple from the start I miss read an instruction which where the trouble started. After messing around with it, I decided to start over and reread the requirements to pass the quiz. And wouldn't you know it just clicked and I got it done. Here is the bit of code I came up with:<br>
+&emsp; Now for some insight into the [Udacaity](http://udacity.com) I am working through for JavaScript. To save us both time I will just go over one bit that stumped me a bit do to over thinking and trying to make it more complex.(It's a normal trend I am trying to fix). The section was on conditionals such as variables, if, else and else if statements. For the exercise I was suppose to write a block of code that used if, else and else if to find rather a number was odd using the modulo operation. While this should of been simple from the start I miss read an instruction which is where the trouble started. After messing around with it, I decided to start over and reread the requirements to pass the quiz. And wouldn't you know it just clicked and I got it done. Here is the bit of code I came up with
+<br>
 ```
 var number = 5;
 
