@@ -8,4 +8,4 @@ published: false
 
 <br>
 &emsp; Another week has gone by and I'm to tell you a few things I learned.   
-There's not much to report but I did work on Udacity course and read some JavaScript articles on [Dev.to](http://www.dev.to).
+There's not much to report but I did work on Udacity course and read some JavaScript articles on [Dev.to](https://dev.to/).
