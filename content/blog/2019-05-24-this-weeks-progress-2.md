@@ -10,7 +10,8 @@ published: false
 <br>
 &emsp; Another week has gone by and I'm here to tell you a few things I learned.      
 There's not much to report but I did work on a Udacity course and read some JavaScript articles on [Dev.to](https://dev.to).<br><br>
-&emsp;So one of the articles I read was something that was not new to JavaScript but it was new to me. This feature known as .some( ) is used to check against an array to learn about data in an array. The example used which is at the bottom of this [article](https://dev.to/mattsparks/quick-javascript-tip-the-some-method-207j) is what I will be showing you. So lets say you want to know if a price of a certain item in the array goes above 20 dollars. Here is a bit of code to highlight my example. <br>
+&emsp;So one of the articles I read was something that was not new to JavaScript but it was new to me. This feature known as .some( ) is used to check against an array to learn about data in an array. The example used which is at the bottom of this [article](https://dev.to/mattsparks/quick-javascript-tip-the-some-method-207j) is what I will be showing you. So lets say you want to know if a price of a certain item in the array goes above 20 dollars. Here is a bit of code to highlight my example. 
+<br>
 
 ```
 const prices = [5, 8, 11, 10, 25]; //an array
@@ -46,3 +47,4 @@ true == true  => true
 true === true => true
 ```
 <br>
+&emsp;That concludes my lessons this week and I hope you enjoy my coding information. If anything seems wrong or you would like to discuss this more hit me up on twitter [@officalajsmith](https://twitter.com/officalajsmith). 
