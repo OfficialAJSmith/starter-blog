@@ -9,7 +9,7 @@ published: false
 ---
 <br>
 &emsp; Another week has gone by and I'm here to tell you a few things I learned.      
-There's not much to report but I did work on a Udacity course and read some JavaScript articles on [Dev.to](https://dev.to).<br><br>
+There's not much to report but I did work on a Udacity course and read some JavaScript articles on [Dev.to](https://dev.to).<br>
 &emsp;So one of the articles I read was something that was not new to JavaScript but it was new to me. This feature known as .some( ) is used to check against an array to learn about data in an array. The example used which is at the bottom of this [article](https://dev.to/mattsparks/quick-javascript-tip-the-some-method-207j) is what I will be showing you. So lets say you want to know if a price of a certain item in the array goes above 20 dollars. Here is a bit of code to highlight my example. 
 <br>
 
@@ -22,7 +22,7 @@ console.log(aboveTwenty); // true
 
 ```
 <br>
-&emsp; Now for some insight into the [Udacaity](http://udacity.com) I am working through for JavaScript. To save us both time I will just go over one bit that stumped me a bit do to over thinking and trying to make it more complex.(It's a normal trend I am trying to fix). The section was on conditionals such as variables, if, else and else if statements. For the exercise I was suppose to write a block of code that used if, else and else if to find rather a number was odd using the modulo operation. While this should of been simple from the start I miss read an instruction which is where the trouble started. After messing around with it, I decided to start over and reread the requirements to pass the quiz. And wouldn't you know it just clicked and I got it done. Here is the bit of code I came up with
+&emsp; Now for some insight into the [Udacaity](http://udacity.com) I am working through for JavaScript. To save us both time I will just go over one bit that stumped me a bit due to over thinking and trying to make it more complex (It's a normal trend I am trying to fix). The section was on conditionals such as if, else and else if statements. For the exercise I was suppose to write a block of code that used if, else and else if to find rather a number was odd using the modulo operation. While this should of been simple from the start I miss read an instruction which is where the trouble started. After messing around with it awhile, I decided to start over and reread the requirements to pass the quiz. And wouldn't you know, it just clicked and I got it done. Here is the bit of code I came up with.
 <br>
 ```
 var number = 5;
