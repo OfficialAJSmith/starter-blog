@@ -12,5 +12,5 @@ published: false
 
 &emsp; Have you ever wanted to setup a WordPress site, but don't want to use WordPress.com or an expensive paid host ? Well you have come to the right place. In this article I will go over how to setup a WordPress site on Google Cloud. <br>
 
-##Set One Get Google Cloud Setup
+###Step One Get Google Cloud Setup
 <br>
