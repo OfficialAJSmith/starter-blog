@@ -42,5 +42,10 @@ If you have done this correctly you should find yourself back at the bash consol
 ```
 yum install google-cloud-sdk
 ```
-You should note that this installs the minimum files required to use Google Cloud SDK and if you want app engine support or other file support you will have to install them manually. We will not be covering this part here as it is not needed for this project. If you wish to use these tools visit Google Cloud Developers page for more details. 
+You should note that this installs the minimum files required to use Google Cloud SDK and if you want app engine support or other file support you will have to install them manually. We will not be covering this part here as it is not needed for this project. If you wish to use these tools visit Google Cloud Developers page for more details. Now that we have gcloud setup for use with our local machine we can setup a webserver.  
+<br>
+
+###Web Server (Lamp) 
+<br>
+
 
