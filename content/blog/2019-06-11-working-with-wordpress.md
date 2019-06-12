@@ -155,5 +155,12 @@ post_max_size = 21M
 ###Install WordPress on your Google cloud
 &emsp;Visit [WordPress.org](https://codex.wordpress.org/Installing_WordPress) if you need more help with setup. Use the commands below to install wordpress, and be sure to do this in /var/www/yoursite.com folder so you don't have to move your files around. Lastly you can install a script to help tune your config after its ran a few days. If you made it this far you should now have your own WordPress Site.
 ```
-wget https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl
+#To install WordPress
+
+wget https://wordpress.org/latest.tar.gz && tar -xzvf latest.tar.gz
+
+#To run the script for tweaking
+
+wget 
+https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl
 ```
