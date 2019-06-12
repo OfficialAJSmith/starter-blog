@@ -44,8 +44,48 @@ yum install google-cloud-sdk
 ```
 You should note that this installs the minimum files required to use Google Cloud SDK and if you want app engine support or other file support you will have to install them manually. We will not be covering this part here as it is not needed for this project. If you wish to use these tools visit Google Cloud Developers page for more details. Now that we have gcloud setup for use with our local machine we can setup a webserver.  
 <br>
+##Swap File setup
+&emsp;Since we are using only 512mb of ram on the this compute engine it is recommended that you install a 1gb swap file to help with performance. Here are the steps to do that. First you need to allocate some space:
+```
+sudo fallocate -l 1G /swapfile
+```
+Now you can use dd to move the allocated space. Be Careful and only type what I have provided unless your positive you know what you're doing. DD can damage your file system:
+```
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
+```
+Once that is done, it may take a few minutes so please wait until it's done. After this we can change access to the swapfile so that only root can access it, we will use chmod to do so. 
+```
+sudo chmod 600 /swapfile
+```
+Root access is now setup and we can use mkswap to create the file need for swap and fstab. 
+```
+sudo mkswap /swapfile
+```
+You have now created a file to link with swap use the following command to turn it on:
+```
+ sudo swapon /swapfile
+```
+Be sure to add this to your fstab config to load it in the even you need to restart or your compute engine. below is the command and information to paste into the fstab config.
+```
+sudo nano /etc/fstab
 
+#paste this in the fstab file and save it.
+/swapfile swap swap defaults 0 0
+```
 ###Web Server (Lamp) 
 <br>
+&emsp;There is a few methods you can install a LAMP server with a single command or you can choose to install each component individual if you need specific versions or a container setup. The version I choose to do was with apt-get which handles all the dependencies needed to make the basic stack. After this you will have to add a few additional items that we will go over. Use the following command to get started:
+```
+sudo apt-get install lamp-server^
+```
+If your install does not go well do not remove lamp-server with the caret "^" because it will remove all libraries attached to it and break your system. Also don't forget it when installing as it will not include everything needed. I mentioned a few extra items that need installed to finish out the lamp stack setup. Use the bit below to install these.
+```
+sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc
+```
+###Apache config 
+&emsp;In this second we will setup the apache config so that we can point our web address to the proper ip and apache conf files. 
 
+
+
+  
 
