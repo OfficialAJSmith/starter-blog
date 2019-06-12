@@ -67,9 +67,12 @@ You have now created a file to link with swap use the following command to turn 
 ```
 Be sure to add this to your fstab config to load it in the even you need to restart or your compute engine. below is the command and information to paste into the fstab config.
 ```
+#command to open fstab.conf
+
 sudo nano /etc/fstab
 
-#paste this in the fstab file and save it.
+#Paste this in the fstab file and save it.
+
 /swapfile swap swap defaults 0 0
 ```
 ###Web Server (Lamp) 
@@ -83,9 +86,50 @@ If your install does not go well do not remove lamp-server with the caret "^" be
 sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc
 ```
 ###Apache config 
-&emsp;In this second we will setup the apache config so that we can point our web address to the proper ip and apache conf files. 
+&emsp;In this second we will setup the apache config so that we can point our web address to the proper ip and apache conf files. First let's get to the proper folder with the following commands.
+```
+#Use this to get to the location of the files to be edited
 
+cd /etc/apache2/sites-available
+```
+Step two will be coping the default to a new file. This is optional but recommend to organize things if you decide to add additional sites to the server. 
+```
+sudo cp  000-default.conf yoursitesname.conf
 
+#replace yoursitesname with your web address
+```
+Once you have done this you can now edit the new config file
+```
+sudo nano yoursitename.conf
 
-  
+#Once inside the file make changes as such below
+
+<Directory /var/www/example.com>
+Require all granted
+</Directory>
+<VirtualHost *:80>
+ServerName yoursitename.com
+ServerAlias www.yoursitename.com
+ServerAdmin webmaster@localhost
+DocumentRoot /var/www/yoursitename.com
+</VirtualHost>
+```
+The last step for the apache setup is to enable the new config.
+```
+#This turns off the default conf 
+
+sudo a2dissite 000-default.conf
+#This enables the new one
+
+sudo a2ensite yoursitename.conf
+
+#You can now type
+
+sudo systemctl reload apache2
+```
+If all went well you now have your sites address setup. Make sure you create the directory for the new site if you have not done so already.
+```
+sudo  mkdir -p /var/www/yoursite.com
+```
+
 
