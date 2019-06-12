@@ -3,8 +3,8 @@ title: Working With WordPress
 date: 2019-06-11T23:41:00.131Z
 image: /images/wordpress-icon.png
 tags:
-  - '#WordPress'
-  - '#Hacklafayette'
+  - WordPress
+  - Hacklafayette
 published: true
 ---
 <br>
