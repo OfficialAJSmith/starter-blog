@@ -3,8 +3,8 @@ title: Working With WordPress
 date: 2019-06-11T23:41:00.131Z
 image: /images/wordpress-icon.png
 tags:
-  - '#WordPress'
-  - '#Hacklafayette'
+  - WordPress
+  - Hacklafayette
 published: true
 ---
 <br>
@@ -164,3 +164,7 @@ wget https://wordpress.org/latest.tar.gz && tar -xzvf latest.tar.gz
 wget 
 https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl
 ```
+###Sources I used
+[MySql](https://dev.mysql.com/doc/refman/8.0/en/server-administration.html)
+[Chris Titus](https://www.youtube.com/watch?v=vIJdypOqlL4&t=782s)
+[Chris Titus Website](https://www.christitus.com/2019/03/14/wordpress-google-cloud-platform/)
