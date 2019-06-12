@@ -131,5 +131,29 @@ If all went well you now have your sites address setup. Make sure you create the
 ```
 sudo  mkdir -p /var/www/yoursite.com
 ```
+###Mysql WordPress Database 
+&emsp;Wordpress has to have a sql database to store post and config information so we will go ahead and create a database. This has to be done as root.
+```
+sudo  mysql -u root
+> CREATE DATABASE wordpress;
+> GRANT ALL ON wordpress.* TO 'wordpressuser' IDENTIFIED BY 'Secure1234!';
+> quit
 
+#This last step is need to harden the database so that there is no way to access it without root.
 
+sudo mysql_secure_installation
+```
+###Php.ini tweaks
+&emsp;You can edit the "/etc/php/7.2/apache2/php.ini" file if you like to help tweak performance. Open Nano and make the changes below. You can search for the settings with crl + q. 
+```
+#Edit /etc/php/7.2/apache2/php.ini
+
+max_input_time = 30
+upload_max_filesize = 20M
+post_max_size = 21M
+```
+###Install WordPress on your Google cloud
+&emsp;Visit [WordPress.org](https://codex.wordpress.org/Installing_WordPress) if you need more help with setup. Use the commands below to install wordpress, and be sure to do this in /var/www/yoursite.com folder so you don't have to move your files around. Lastly you can install a script to help tune your config after its ran a few days. If you made it this far you should now have your own WordPress Site.
+```
+wget https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl
+```
