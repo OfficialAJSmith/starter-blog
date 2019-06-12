@@ -5,7 +5,7 @@ image: /images/wordpress-icon.png
 tags:
   - '#WordPress'
   - '#Hacklafayette'
-published: false
+published: true
 ---
 <br>
 <br>
